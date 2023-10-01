@@ -1,0 +1,70 @@
+.navbar {
+    width: 100%;
+    height: 90px;
+    background: #2a2a2a;
+    
+  }
+
+  .links {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 25px;
+  }
+  .navbar:hover {
+    box-shadow: 0px 3px 15px #03DAC5;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+  }
+
+  .toggleButton {
+    width: 100%;
+    height: 90px;
+    justify-content: right;
+    background-color: transparent;
+  }
+
+  .toggleButton button {
+    margin-right: 20px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+
+  #open {
+    height: 100vh;
+  }
+  
+  #open .links {
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 100px;
+  }
+  
+  #open a {
+    width: 100%;
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .toggleButton {
+      display: flex;
+    }
+    #close a {
+      display: none;
+    }
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .toggleButton {
+      display: none;
+    }
+}
