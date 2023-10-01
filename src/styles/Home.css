@@ -7,15 +7,18 @@
 
 .about {
   height: 90vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transform: scale(1.5);
 }
+
 .about h1 {
-    animation: 2s anim-lineUp ease-out;
-    color: rgb(202, 202, 202);
+  font-size: 45px;
+  animation: 2s anim-lineUp ease-out;
+  text-align: center;
+  color: rgb(202, 202, 202);
   }
   @keyframes anim-lineUp {
     0% {
@@ -39,6 +42,7 @@
   font-family: "Montserrat Medium";
   max-width: 40ch;
   text-align: center;
+  
   /* transform: scale(0.94); */
   color: #999;
   animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
@@ -50,10 +54,12 @@
 }
 
 .prompt span {
+  transform: scale(1.5);
   display: inline-block;
   opacity: 0;
   filter: blur(4px);
-  margin-inline: 2px;
+  margin-inline: 9px;
+  margin-block: 5px;
   
 }
 
@@ -151,11 +157,11 @@ span:nth-child(18) {
 .skillList {
     display: grid;
     /* display: inline-grid; */
-  grid-template-rows: auto auto auto;
-  /* grid-template-columns: auto auto auto; */
-  /* grid-template-rows: 100px 100px 100px; */
-  /* grid-template-columns: auto-fit 100px 100px; */
-  /* grid-template-columns: auto; */
+    grid-template-rows: auto auto auto;
+    /* grid-template-columns: auto auto auto; */
+    /* grid-template-rows: 100px 100px 100px; */
+    /* grid-template-columns: auto-fit 100px 100px; */
+    /* grid-template-columns: auto; */
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     /* justify-content: center;
     align-self: center; */
@@ -173,6 +179,7 @@ span:nth-child(18) {
     margin-block: 20px;
     align-items: center;
 }
+
 .skillItem h1 {
     text-align: center;
     font-size: 25px;
@@ -186,3 +193,13 @@ span:nth-child(18) {
     background-size: cover;
 }
 
+
+@media only screen and (max-width: 600px) {
+  .skillItem {
+    width: 100px;
+    height: 100px;
+  }
+  .skillList {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
