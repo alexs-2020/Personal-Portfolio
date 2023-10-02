@@ -17,7 +17,7 @@ export const SkillList = [
     {
         name: "CSS",
         image: css,
-        level: 50
+        level: 60
     },
     {
         name: "HTML",
@@ -27,12 +27,12 @@ export const SkillList = [
     {
         name: "Python",
         image: py,
-        level: 60
+        level: 65
     },
     {
         name: "Java",
         image: java,
-        level: 70
+        level: 65
     },
     {
         name: "C/C++",
@@ -48,12 +48,12 @@ export const SkillList = [
     {
         name: "MongoDB",
         image: mongo,
-        level: 70
+        level: 60
     },
     {
         name: "NodeJS",
         image: node,
-        level: 70
+        level: 60
     },
     {
         name: "ARM Assembly",
