@@ -8,7 +8,7 @@ export const ProjectList = [
         name: "X-SpotFinder Social Media App",
         image: x,
         skills: "React, Express, MongoDB, Node.js, Cloudinary, Mapbox",
-        des: 'School porject tasked with Creating a calendar app to keep track of task and events. Able to sort, search, completion status',
+        des: 'School project tasked with Creating a calendar app to keep track of task and events. Able to sort, search, completion status',
         url: 'https://github.com/alexs-2020/X-SpotFinder'
     },
     {
