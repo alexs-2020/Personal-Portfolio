@@ -14,8 +14,7 @@ export default function ProjectDisplay() {
         <h3> 
         <b>Skills:</b> {proj.skills}
         </h3>
-        <p> School porject tasked with Creating a calendar app to keep track of taskt
-        and events. Able to sort, search, completion status </p>
+        <p> {proj.des} </p>
         <a href={proj.url} style={{textDecoration: 'none', color: '#03DAC5'}}> <Git style={{fontSize: '40px'}} /> </a>
       </div>
     );

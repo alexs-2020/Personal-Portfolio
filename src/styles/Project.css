@@ -48,7 +48,7 @@
     margin: auto;
     width: 100%;
     text-align: center;
-    height: 100vh;
+    height: auto;
 }
 
 .project h1 {
@@ -56,7 +56,7 @@
     margin-block: 25px ;
 }
 .project img {
-    width: 60vw;
+    max-height: 65vh;
     align-self: center;
     border-radius: 20px;
     box-shadow: -2px 0 #03DAC5, 0 2px #03DAC5, 2px 0 #03DAC5, 0 -2px #03DAC5;
