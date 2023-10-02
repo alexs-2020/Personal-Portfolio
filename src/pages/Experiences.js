@@ -44,7 +44,7 @@ export default function experiences() {
         >
         <h3 className='vertical-timeline-element-title'> Northeastern University </h3>
         <h4 className='vertical-timeline-element-subtitle'>  Boston, Massachusettes  </h4>
-        <p> Bachelors of Science in Computer Engineering</p>
+        <p> Bachelor of Science in Computer Engineering</p>
     </VerticalTimelineElement>
         <VerticalTimelineElement 
         className='vertical-timeline-element--work' 
@@ -72,7 +72,7 @@ export default function experiences() {
         University Of Miami 
         </h3>
         <h4 className='vertical-timeline-element-subtitle'>  Miami, Florida  </h4>
-        <p> Bachelors in Science in Computer Engineering </p>
+        <p> Bachelor in Science in Computer Engineering </p>
     </VerticalTimelineElement>
         
         <VerticalTimelineElement 
