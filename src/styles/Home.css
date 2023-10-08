@@ -91,6 +91,7 @@ span:nth-child(5) {
 
 
 .skills {
+  margin-top: 30px;
   height: auto;
   width: 100vw;
   justify-content: center;
@@ -139,7 +140,33 @@ span:nth-child(5) {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.aboutMe {
+  background-color: #2a2a2a;
+  height: auto;
+  color: rgb(202, 202, 202);
+  padding-inline: 20vw;
+  padding-block: 10vh;
+}
+.aboutSelf {
+  /* margin: 15vw; */
 
+  margin-bottom: 30px;
+}
+.lookingFor {
+  /* margin: 15vw; */
+  margin-block: 30px;
+}
+.line {
+  /* background-color: #999; */
+  background-color: #03DAC5;
+  /* color: #03DAC5; */
+  width: 40px;
+  height: 1px;
+}
+.aboutMe p {
+  font-size: 20px;
+  margin-top: 30px;
+}
 
 @media only screen and (max-width: 600px) {
   .skillItem {

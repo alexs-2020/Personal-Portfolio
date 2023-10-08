@@ -14,7 +14,7 @@ export const ProjectList = [
     {
         name: "Week-Book",
         image: jj,
-        skills: "Java",
+        skills: "Java, OOD",
         des: "In 2023, I designed and implemented a Java-based calendar application \
         for Week-Book in Boston, MA. Leveraging the Model-View-Controller (MVC) architecture \
         and JavaFX framework, I crafted a feature-rich platform. Users could seamlessly manage\
@@ -27,7 +27,7 @@ export const ProjectList = [
     {
         name: "Root-Finder Visualizer",
         image: py,
-        skills: "Java",
+        skills: "Python",
         des: "Part of a school project  written in python. Used the pyplot, numpy, and sympy to create a visualization program to find the \
          zeros of a given function. Using the CLI, the user may input a function, lower bound, and upper bound to search for a zero inbtween.\
          The user is then given three options on which searc-method to us: Newton, Secant, Bisecant.",
@@ -36,7 +36,7 @@ export const ProjectList = [
     {
         name: "BattleSalvo",
         image: bs,
-        skills: "Java",
+        skills: "Java, OOD",
         des: "In 2023, I undertook the development of a comprehensive \
          Battleship game in a Command Line Interface (CLI) environment, utilizing Java,\
           the Model-View-Controller (MVC) architectural pattern, and Object-Oriented Design \
@@ -45,6 +45,6 @@ export const ProjectList = [
           shots and misses. This project showcased my expertise in software development and problem-solving, \
           demonstrating proficiency in CLI-based gaming and AI strategy. As a class project, this was later\
            developed into just an ai playing against server ai. The class held a tournament for all the ai's to battle eachother. ",
-        url: 'https://github.com/alexs-2020/Week-book'
+        url: 'https://github.com/alexs-2020/BattleShip'
     },
 ]
