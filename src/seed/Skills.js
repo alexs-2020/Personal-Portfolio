@@ -7,6 +7,8 @@ import html from '../assets/HTML.png'
 import node from '../assets/node.png'
 import react from '../assets/react.png'
 import mongo from '../assets/mongo.png'
+import arm from '../assets/asm.png'
+import sql from '../assets/sql.png'
 
 export const SkillList = [
     {
@@ -57,7 +59,12 @@ export const SkillList = [
     },
     {
         name: "ARM Assembly",
-        image: js,
+        image: arm,
+        level: 50
+    },
+    {
+        name: "SQL",
+        image: sql,
         level: 40
     },
  

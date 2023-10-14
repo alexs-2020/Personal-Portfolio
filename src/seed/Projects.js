@@ -8,7 +8,11 @@ export const ProjectList = [
         name: "X-SpotFinder Social Media App",
         image: x,
         skills: "React, Express, MongoDB, Node.js, Cloudinary, Mapbox",
-        des: 'School project tasked with Creating a calendar app to keep track of task and events. Able to sort, search, completion status',
+        des: 'I developed a social media platform for extreme sport enthusiasts using the MERN tech stack.\
+        Included the integration of Mapbox for an interactive map feature, allowing users to store and explore \
+         "trick-worthy" spots on the map as well as a photo and a pin. Used cloudinary for easy multimedia managment. Providing a simple\
+         API for easily uploading media files directly through the browser. \
+          Additionally, included user authentication and personal profiles.',
         url: 'https://github.com/alexs-2020/X-SpotFinder'
     },
     {
@@ -37,14 +41,15 @@ export const ProjectList = [
         name: "BattleSalvo",
         image: bs,
         skills: "Java, OOD",
-        des: "In 2023, I undertook the development of a comprehensive \
-         Battleship game in a Command Line Interface (CLI) environment, utilizing Java,\
-          the Model-View-Controller (MVC) architectural pattern, and Object-Oriented Design \
-          (OOD) principles. My work extended to implementing an advanced AI shot-guessing algorithm, \
-          enhancing the AI opponent's strategic capabilities based on heuristic analysis of prior successful \
-          shots and misses. This project showcased my expertise in software development and problem-solving, \
-          demonstrating proficiency in CLI-based gaming and AI strategy. As a class project, this was later\
-           developed into just an ai playing against server ai. The class held a tournament for all the ai's to battle eachother. ",
+        des: "IIn 2023, I undertook the development of a comprehensive Battleship game in\
+         a Command Line Interface (CLI) environment, utilizing Java, the Model-View-Controller \
+         (MVC) architectural pattern, and Object-Oriented Design (OOD) principles. My work extended \
+         to implementing an advanced AI shot-guessing algorithm, enhancing the AI opponent's strategic\
+          capabilities based on heuristic analysis of prior successful shots and misses. This project \
+          showcased my expertise in software development and problem-solving, demonstrating proficiency\
+           in CLI-based gaming and AI strategy. As a class project, this was later developed into just\
+            an AI setup to fight against a server AI through JSON requests. The class held a tournament\
+             for all the AI's to battle each other. ",
         url: 'https://github.com/alexs-2020/BattleShip'
     },
 ]
